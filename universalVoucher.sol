@@ -7,7 +7,7 @@ pragma solidity ^0.4.2;
 contract universalVoucher {
     address public owner;
 
-    mapping(uint256 => uint256) public passagerWallets;
+    mapping(uint256 => uint256) public customerWallets;
 
     /* constructor */
     function universalVoucher() {
@@ -22,8 +22,8 @@ contract universalVoucher {
     }
 
     /// add and change the wallet of a passager
-    function changePassager(uint256 id, uint256 amount) onlyOwner {
-        passagerWallets[id]=amount;
+    function changeCustomer(uint256 id, uint256 amount) onlyOwner {
+        customerWallets[id]=amount;
     }
 
     /* destruct the smart contract */
