@@ -33,5 +33,13 @@ Now you can add or change the wallet of a customer with :
 ```
 myContractInstance.changePassager(1,10, {from: web3.eth.accounts[0]})
 ```
+Test the API
+-----------
+
+To test the Api, run this command :
+
+```
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" -H  -d 'id_customer=123&amount=123' "http://104.131.177.14:1212/customers"
+```
 
 That's all!
