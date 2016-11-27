@@ -18,9 +18,9 @@ app.post('/customers', function (req, res) {
     var universalVoucherInstance = universalVoucher.at("0xf928d7b7459c0ee855ccf6156d26a2360a129e5a");
 
     universalVoucherInstance.changeCustomer(id_customer, amount, {from: web3.eth.accounts[0]}, function(res,err) {
-			if (err) {
-				console.log(err);
-			}
+      if (err) {
+        console.log(err);
+      }
 		});
 
 		res.sendStatus(200)
