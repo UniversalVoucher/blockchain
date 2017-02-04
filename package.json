@@ -1,0 +1,23 @@
+{
+  "name": "blockchain",
+  "version": "0.1.0",
+  "description": "",
+  "main": "universalVoucher.js",
+  "dependencies": {
+    "bitcore-ecies": "^1.0.1",
+    "bitcore-lib": "^0.13.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniversalVoucher/blockchain.git"
+  },
+  "author": "Wagner Nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UniversalVoucher/blockchain/issues"
+  },
+  "homepage": "https://github.com/UniversalVoucher/blockchain#readme"
+}
