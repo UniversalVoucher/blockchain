@@ -129,9 +129,4 @@ contract UV is Mortal,Token {
 
   /// @notice fallback
   function () payable {}
-  
-  /* destruct the smart contract */
-  function kill() onlyOwner() {
-    selfdestruct(owner);
-  }
 }
